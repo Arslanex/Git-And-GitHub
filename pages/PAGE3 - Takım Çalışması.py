@@ -1,8 +1,16 @@
 import streamlit as st
+from PIL import Image
 
 def page_3():
     st.title("Takım İle Git&GitHub Kullanımı :face_with_monocle:")
-    st.write("Bu sayfada yeni başlayan bir ekibin Git&GitHub platformunu nasıl beraber kullanabilecekleri açıklanmaktadır.")
+    st.markdown("""
+    Bu sayfada yeni başlayan bir ekibin Git&GitHub platformunu nasıl beraber kullanabilecekleri açıklanmaktadır. Hemen bu
+    yazının altında bulunan diagram iki kişinin remote repo üzerinde nasıl beraber çalışabilceklerini gösteriyor. Bu
+    şekilde çalışabilmek için izlemeniz gereken adımlar aşağıdaki açıklamalarda.
+    """)
+
+    image = Image.open('./images/flow.png')
+    st.image(image, caption='diagram')
 
     tab1, tab2, tab3 = st.tabs(["ADIM 1 - Uzak Çalışma Alanı", "ADIM 2 - Yerel Çalışma Alanı", "ADIM 3 - Gönder/Kontrol Et/Birleştir"])
 

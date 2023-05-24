@@ -28,11 +28,23 @@ def page_1(term_dict):
 
 term_dict = {
 'git' : """
+        **SHORT DESCRIPTION:**
+        \n
+        Dağıtık bir versiyon kontrol sistemi
+        \n
+        **DETAILED DESCRIPTION:**
+        \n
         Git, açık kaynaklı ve dağıtık bir sürüm kontrol sistemi olarak kullanılan bir yazılımdır. Projelerin tarihçesini takip 
         etmek, değişiklikleri yönetmek ve işbirliği yapmak için kullanılır. Git, hızlı, verimli ve daldan (branch) birleştirmeye 
         (merge) kadar birçok özelliğiyle geliştiriciler arasında yaygın olarak kullanılmaktadır.
         """,
 'github' : """
+         **SHORT DESCRIPTION:**
+        \n
+        GitHub, Git adlı bir sürüm kontrol sistemini (VCS) barındıran bulut tabanlı bir hizmettir.
+        \n
+        **DETAILED DESCRIPTION:**
+        \n
         GitHub, Git tabanlı projelerin barındırıldığı ve işbirliği yapıldığı bir bulut tabanlı platformdur. Geliştiriciler, 
         projelerini GitHub'a yükleyebilir, Git'i kullanarak versiyon kontrolünü yönetebilir ve diğer kullanıcılarla paylaşabilir. 
         GitHub, projelerin tarihçesini takip etmek, değişiklikleri gözden geçirmek, hataları raporlamak ve işbirliği yapmak için 
@@ -40,12 +52,24 @@ term_dict = {
         platformdur.
         """,
 'repo' : """
+         **SHORT DESCRIPTION:**
+        \n
+        Projedeki dosyaların ve geçmişin saklandığı yer.
+        \n
+        **DETAILED DESCRIPTION:**
+        \n
         "Repo" terimi, bir Git projesinin depolama alanını veya veritabanını ifade eder. Bir repo, projenin dosyalarını, 
         tarihçesini ve yönetim özelliklerini içerir. Git repo'su, projenin geliştirilmesi, işbirliği yapılması ve sürüm 
         kontrolü için temel bir yapı taşıdır. Repo'lar, projelerin paylaşılması, değişikliklerin takip edilmesi ve geri 
         alınması için kullanılır. Projelerin popüler platformlarda veya özel sunucularda barındırılan repo'ları vardır.
         """,
 'commit' : """
+         **SHORT DESCRIPTION:**
+        \n
+        Dosya değişikliklerinin git reposuna kaydedildiği işlem.
+        \n
+        **DETAILED DESCRIPTION:**
+        \n
         "Commit" (işlem), Git tabanlı bir projede yapılan değişikliklerin kalıcı olarak kaydedilmesini sağlayan bir işlemdir. 
         Bir commit, projenizin tarihçesinde bir anlık görüntüyü temsil eder ve belirli bir değişiklik paketini işaretler.
         
@@ -64,6 +88,12 @@ term_dict = {
         anlamamızı ve projede yapılan değişikliklerin amacını ve etkisini hızlıca anlamamızı sağlar.
         """,
 'branch' : """
+         **SHORT DESCRIPTION:**
+        \n
+        Projedeki ana kaynaktan türetilen ayrı bir çalışma alanı.
+        \n
+        **DETAILED DESCRIPTION:**
+        \n
         "Branch" (dal), Git tabanlı bir proje yönetiminde kullanılan ve projenin farklı çalışma alanlarını, özelliklerini veya 
         sürümlerini izlemek ve yönetmek için kullanılan bir kavramdır. Bir branch, projenin mevcut durumundan bağımsız olarak 
         yeni bir çalışma alanı oluşturur.
@@ -87,6 +117,12 @@ term_dict = {
         çalışmayı kolaylaştırır, çatışmaları azaltır ve projenin daha iyi organize edilmesine yardımcı olur.
         """,
 'merge' : """
+         **SHORT DESCRIPTION:**
+        \n
+        Farklı dallardaki değişikliklerin birleştirildiği işlem.
+        \n
+        **DETAILED DESCRIPTION:**
+        \n
         "Remote merge" terimi, uzak Git depolarında (remote repositories) yapılan birleştirme (merge) işlemini ifade eder. Uzak 
         merge işlemi, farklı kullanıcıların veya ekiplerin çalışmalarını birleştirmek için uzak depoları kullanır. Uzak merge işlemi 
         genellikle aşağıdaki adımları içerir:
@@ -107,6 +143,12 @@ term_dict = {
         ve proje ekibinin güncel çalışma durumunu sağlar.
         """,
 'pull_request' : """
+         **SHORT DESCRIPTION:**
+        \n
+        Değişikliklerin ana dala birleştirilmesi için yapılan bir istek.
+        \n
+        **DETAILED DESCRIPTION:**
+        \n
         "Pull request" (çekme isteği), Git tabanlı bir proje yönetiminde kullanılan bir işlemdir. Bir pull request, değişikliklerin 
         önerildiği ve incelenmesi için projenin sahiplerine gönderildiği bir istektir. Bir pull request oluşturmak için aşağıdaki adımları izleyebilirsiniz:
         
@@ -127,6 +169,12 @@ term_dict = {
         değişikliklerin kontrollü bir şekilde projeye entegre edilmesini sağlar.
         """,
 'clone' : """
+         **SHORT DESCRIPTION:**
+        \n
+        Uzak repo kaynağının yerel makineye kopyalanması.
+        \n
+        **DETAILED DESCRIPTION:**
+        \n
         "Clone" komutu, Git'in bir komutudur ve bir uzak Git deposundaki projenin tam bir kopyasını yerel makinenize indirmenizi 
         sağlar. Klonlama işlemi, projenin tüm dosyalarını, geçmişini ve yapılandırmasını içerir.
         
@@ -144,6 +192,12 @@ term_dict = {
         yönetebilirsiniz. Bu sayede, projeye katkıda bulunabilir veya kendi bağımsız projenizi geliştirebilirsiniz.
         """,
 'fork' : """
+         **SHORT DESCRIPTION:**
+        \n
+        Bir projenin tam bir kopyasını kullanıcının GitHub hesabına taşıma işlemi.
+        \n
+        **DETAILED DESCRIPTION:**
+        \n
         "Fork" terimi, açık kaynaklı bir projenin kopyasını almak anlamına gelir. Genellikle başka bir projenin geliştirilmesine 
         veya katkıda bulunulmasına olanak sağlamak için kullanılır.
         
@@ -158,6 +212,12 @@ term_dict = {
         (çekme isteği) yoluyla orijinal projenin sahiplerine gönderebilir ve bu şekilde katkı sağlayabilirsiniz.
         """,
 'pull' : """
+         **SHORT DESCRIPTION:**
+        \n
+        Uzak repo kaynağını yerel makineye güncelleme işlemi.
+        \n
+        **DETAILED DESCRIPTION:**
+        \n
         "Pull" işlemi, Git'in bir komutudur ve yerel projenizi güncellemek için uzak Git deposundan en son değişiklikleri almanızı 
         sağlar. Bu işlem, projenizin diğer katılımcılarla senkronize olmasını sağlar ve projenin en güncel halini yerel makinenize 
         getirir. Pull komutu kullanılarak, uzak depoda yapılan değişikliklerin yerel projenize entegre edilmesi sağlanır, böylece 

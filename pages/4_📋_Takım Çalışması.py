@@ -2,6 +2,9 @@ import streamlit as st
 from PIL import Image
 
 def page_3():
+    with st.sidebar:
+        st.title("Takım halinde nasıl gitHub üzerinde nasıl çalışılır ?")
+
     st.title("Takım İle Git&GitHub Kullanımı :face_with_monocle:")
     st.markdown("""
     Bu sayfada yeni başlayan bir ekibin Git&GitHub platformunu nasıl beraber kullanabilecekleri açıklanmaktadır. Hemen bu

@@ -10,6 +10,8 @@ st.set_page_config(
         'About': "Who knows"
     }
 )
+with st.sidebar:
+    st.title("Ana Sayfa")
 
 st.title("Hello There")
 st.markdown("""

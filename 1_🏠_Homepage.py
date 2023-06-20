@@ -13,26 +13,33 @@ st.set_page_config(
 with st.sidebar:
     st.title("Ana Sayfa")
 
-st.title("Hello There")
+st.title("Hoş Geldiniz! Git'e Adım Atın: Temel Git Eğitimi")
 st.markdown("""
-Hoşgeldiniz! 
-Evet, Git ve GitHub ile ilgileniyorum ve internette araştırma yaparken bu siteye rastladınız. Bu site, 
-kişisel çalışma ve notlarımı kullanarak Git ve GitHub'ı yeni başlayan kişiler için kolay bir başlangıç noktası 
-oluşturmak amacıyla hazırlandı.
+Merhaba! Git, modern yazılım geliştirme süreçlerinin vazgeçilmez bir parçası haline gelmiş güçlü bir versiyon kontrol 
+sistemi ve kaynak kod yönetim aracıdır. Eğer yazılım geliştirmeye ilgi duyuyorsanız veya zaten bir geliştiriciyseniz, 
+Git'i öğrenmek sizin için önemli bir adımdır.
 
-Git, dağıtık bir sürüm kontrol sistemidir. Yazılım geliştirme sürecinde dosyaların takibini sağlar, değişiklikleri 
-kaydeder ve farklı sürümler arasında geçiş yapmayı kolaylaştırır. Git, projelerinizi takip etmek, farklı dallarda 
-çalışmak ve değişiklikleri birleştirmek gibi birçok özelliği sunar. Ayrıca, yerel olarak çalışır, yani internet 
-bağlantısı olmadan da kullanılabilir.
+Bu web sitesi, Git'in temellerini öğrenmek ve başlamak için ihtiyaç duyduğunuz bilgilere erişmenizi sağlamak için 
+tasarlanmıştır. Git hakkında hiçbir bilginiz olmasa bile endişelenmeyin! Adım adım ilerleyerek Git'in nasıl çalıştığını, 
+temel kavramları ve en sık kullanılan komutları öğreneceksiniz.
 
-GitHub ise Git tabanlı bir kod barındırma ve işbirliği platformudur. Projelerinizi Git kullanarak GitHub'a yükleyebilir, 
-takip edebilir ve paylaşabilirsiniz. GitHub, geliştiricilerin birlikte çalışmasını kolaylaştıran bir dizi işbirliği 
-özelliği sunar. Projenizin bir kopyasını indirebilir, geri bildirim sağlayabilir, hataları rapor edebilir ve projeye 
-katkıda bulunabilirsiniz.
+**Git Eğitimi İçeriği :**
+- Git Temel Kavramları: Git'in temel kavramlarını anlamak, repository (depolar), commit (kayıt), branch (dallar) gibi 
+terimlerin ne anlama geldiğini öğrenmek için bu bölümü inceleyin.
+- Temel Git Komutları: Git'in en sık kullanılan komutlarını öğrenmek için bu sayfaya göz atın. Add (ekle), commit (kaydet), 
+push (yükle), pull (çek) ve clone (kopyala) gibi temel komutları adım adım öğreneceksiniz.
+- Git Sözlüğü: Git'in terimler ve kısaltmalarla dolu dünyasında kaybolmayın. Bu sayfada Git sözlüğünde sıkça kullanılan 
+terimlerin açıklamalarını bulabilirsiniz.
+Bu web sitesi, interaktif bir şekilde öğrenmeyi sağlayan kullanıcı dostu bir arayüzle size rehberlik edecek. Her konu 
+için açıklamalar, örnekler ve pratik alıştırmalar bulunacak. Ayrıca, Git hakkında daha fazla kaynak ve referanslar için 
+kullanabileceğiniz bağlantılar da sunulacak.
+- Takım Çalışması ve Git: Git'in takım çalışması süreçlerinde nasıl kullanıldığını öğrenmek için bu sayfayı ziyaret edin. 
+Branch (dal), merge (birleştir) ve conflict (çakışma) gibi kavramları keşfedin.
 
-Sayfanın sağ tarafında, öğrenme sırasına göre düzenlenmiş sayfalar bulunmaktadır. Bu sayfalar arasında hızlı ve kolay 
-bir şekilde gezinebilirsiniz. Herhangi bir sorunla karşılaşırsanız, sağ üst köşedeki menüden benimle iletişime geçebilir 
-veya GitHub üzerinde sorun bildirebilirsiniz.
+**Hazır mısınız?**
 
-Umarım bu kaynak, Git ve GitHub'ı öğrenmek isteyenlere yardımcı olur! Eğer başka sorularınız varsa sormaktan çekinmeyin.
+O zaman, Git dünyasına adım atmak için hemen başlayalım! Sizi temel Git eğitimimize yönlendirmek için aşağıdaki "Başla" 
+düğmesine tıklayın ve Git'in gücünü keşfetmeye başlayın.
+
+Başla
 """)

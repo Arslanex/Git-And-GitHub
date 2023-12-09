@@ -21,11 +21,10 @@ kullanıcılar projeyi inceleyebilir, katkıda bulunabilir veya kendilerine refe
 Bu proje, bir web sayfası olarak sunulmaktadır ve internet üzerinden erişilebilir durumdadır. Proje bağlantısı -> [HERE](https://git-tutorial.streamlit.app)
 
 ## Screenshots 
-![Screenshot_1](https://github.com/Arslanex/Git-And-GitHub/assets/44752389/add03fd4-9ec9-48a1-ad6e-c3dd1f399da1)
-![Screenshot_2](https://github.com/Arslanex/Git-And-GitHub/assets/44752389/cb9c739f-31aa-426c-91f8-60d318194dbf)
-![Screenshot_3](https://github.com/Arslanex/Git-And-GitHub/assets/44752389/ceab19af-429d-4297-8210-20ced55140a6)
-![Screenshot_4](https://github.com/Arslanex/Git-And-GitHub/assets/44752389/0b2098c5-2368-42dc-80c6-a69047273503)
-
+![Screenshot_1](https://github.com/Arslanex/Git-And-GitHub/assets/44752389/155eab5d-5428-4ced-8050-a6f7ef32cb08)
+![Screenshot_2](https://github.com/Arslanex/Git-And-GitHub/assets/44752389/922cf3a0-947e-463c-ac23-04bfd85b52bd)
+![Screenshot_3](https://github.com/Arslanex/Git-And-GitHub/assets/44752389/11064641-7fae-4a5e-b149-4b409de5d511)
+![Screenshot_4](https://github.com/Arslanex/Git-And-GitHub/assets/44752389/a944cac0-53b2-4137-89b3-a1646c517b5c)
 
 ***
 <h3 align="center"> Enes ARSLAN </h3>

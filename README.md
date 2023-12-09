@@ -20,12 +20,12 @@ kullanıcılar projeyi inceleyebilir, katkıda bulunabilir veya kendilerine refe
 ## How to Run
 Bu proje, bir web sayfası olarak sunulmaktadır ve internet üzerinden erişilebilir durumdadır. Proje bağlantısı -> [HERE](https://git-tutorial.streamlit.app)
 
-## #Setup
-Eğer farklı olark projeyi indirmek ve kendi localinizde çalıştırmak istersenizde aşağıdaki adımları takip etmeniz yeterli: 
+## Screenshots 
+![Screenshot_1](https://github.com/Arslanex/Git-And-GitHub/assets/44752389/add03fd4-9ec9-48a1-ad6e-c3dd1f399da1)
+![Screenshot_2](https://github.com/Arslanex/Git-And-GitHub/assets/44752389/cb9c739f-31aa-426c-91f8-60d318194dbf)
+![Screenshot_3](https://github.com/Arslanex/Git-And-GitHub/assets/44752389/ceab19af-429d-4297-8210-20ced55140a6)
+![Screenshot_4](https://github.com/Arslanex/Git-And-GitHub/assets/44752389/0b2098c5-2368-42dc-80c6-a69047273503)
 
-1. Clone this repostiory : `git clone https://github.com/Arslanex/Git-And-GitHub `
-2. Instal requirements : `pip install -r requirements.txt`
-3. Run main.py script : `streamlit run 1_🏠_Homepage.py`
 
 ***
 <h3 align="center"> Enes ARSLAN </h3>
